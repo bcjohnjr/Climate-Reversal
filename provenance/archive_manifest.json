@@ -1,0 +1,193 @@
+{
+  "archive_created_utc": "2026-11-05",
+  "target_repository": "https://github.com/bcjohnjr/Climate-Reversal",
+  "manuscript": "Carbon-cycle compensation can reverse endpoint and cumulative rankings of equal CO2 removals",
+  "manuscript_number": "2026GB009769",
+  "authors": [
+    "Jonathan Karl Bily",
+    "Christoph Pahl"
+  ],
+  "source_repositories": [
+    {
+      "repository": "bcjohnjr/Planetary-Restoration-Version-62.2",
+      "destination": "code/v62_2",
+      "commit": "89a0f4ab18df25db3a05d4e39c6db06405456505",
+      "role": "Base trajectories, original FaIR/Hector/OSCAR matched-forcing runners and validation data"
+    },
+    {
+      "repository": "bcjohnjr/Planetary-Restoration-Model-V65",
+      "destination": "code/v65",
+      "commit": "ea15518d4434b25f92328f7cf943a958778e8495",
+      "role": "Schedule matrix, cross-model comparisons and model modifications"
+    },
+    {
+      "repository": "bcjohnjr/Planetary-Restoration-Model-V67",
+      "destination": "code/v67",
+      "commit": "4d5ed537fb9bbfab56811a49743a0740099d4c88",
+      "role": "Twelve-case permanence, permafrost and ensemble robustness scripts, workflow and documentation"
+    }
+  ],
+  "run": {
+    "repository": "bcjohnjr/Planetary-Restoration-Model-V67",
+    "run_id": 34724619356,
+    "run_url": "https://github.com/bcjohnjr/Planetary-Restoration-Model-V67/actions/runs/34724619356",
+    "run_commit": "4d5ed537fb9bbfab56811a49743a0740099d4c88",
+    "source_status": "completed successfully",
+    "artifact_count": 13,
+    "artifact_expiry_date": "2026-12-11",
+    "artifacts": [
+      {
+        "file": "V67-Permanence-Feedback-Robustness-Synthesis.zip",
+        "id": 10312071189,
+        "sha256": "218a908a00b0ee48e0c270058f3fcc95acdcab5306d04651e8592734c3c29c6c"
+      },
+      {
+        "file": "v67-case-coupled__canonical.zip",
+        "id": 10309049992,
+        "sha256": "d296bdf2bacd344bca766c966ca8981e4ddc270ffdb8c0a5da28358cb8d5d69e"
+      },
+      {
+        "file": "v67-case-coupled__early.zip",
+        "id": 10309224861,
+        "sha256": "690cb9cae89461cad2c120329de2e6caa37d787ac2b289b3c17a0bb2cdaf4c7c"
+      },
+      {
+        "file": "v67-case-coupled__late.zip",
+        "id": 10310590536,
+        "sha256": "0904097d0c1d2ce1306885c7a09ea5f3b816278cf3a77d9c55ff777a8b8d7384"
+      },
+      {
+        "file": "v67-case-coupled__uniform.zip",
+        "id": 10309692860,
+        "sha256": "14a616e91970bf79a3b504e761ff03ac01bf14a592525194d1c4df505788bd80"
+      },
+      {
+        "file": "v67-case-coupled_pfdouble__early.zip",
+        "id": 10310974295,
+        "sha256": "f4d0ce6014fbaed85b510b2620efed9477c53807a3f73de32b8ff912968b6a3b"
+      },
+      {
+        "file": "v67-case-coupled_pfdouble__late.zip",
+        "id": 10311731395,
+        "sha256": "070f0af9a4da855f312119c6fa95315db05e2b224278df674548eea9708456eb"
+      },
+      {
+        "file": "v67-case-coupled_pfzero__early.zip",
+        "id": 10310886409,
+        "sha256": "2321395410dd62e9a2703b6f2336e0cfd5b4e43c5f08927a19c30abf38c88ac8"
+      },
+      {
+        "file": "v67-case-coupled_pfzero__late.zip",
+        "id": 10310908998,
+        "sha256": "dc9abf48e0ffb97a8f3f89ed87852554998a33b3fce03309d8e927d9dafea7dd"
+      },
+      {
+        "file": "v67-case-fixed__early.zip",
+        "id": 10308585442,
+        "sha256": "209994c65d59e42d6af153c26da9b2ac9f4f503e25a5424ab0e47095362b1a52"
+      },
+      {
+        "file": "v67-case-fixed__late.zip",
+        "id": 10308880766,
+        "sha256": "087d5c935bd34a29598391a32cd259e41636866bce8afecf280ccda8b9be82c8"
+      },
+      {
+        "file": "v67-case-permanent__early.zip",
+        "id": 10308302916,
+        "sha256": "aeb7216b51509994f5915179a2df8ea1a742bf761b0bf2e34914b96cf52dbfd6"
+      },
+      {
+        "file": "v67-case-permanent__late.zip",
+        "id": 10307889598,
+        "sha256": "facdea774b189da3a14d9691c17b8a76ebf3c8619e6f1b8ebf8f00d64e04e835"
+      }
+    ]
+  },
+  "supplementary_tables": [
+    {
+      "table": "Table S1",
+      "file": "data/published_tables/Table_S1.csv",
+      "rows_including_header": 7,
+      "columns": 6,
+      "source": "GBC_Supporting_Information.docx (attached manuscript package)",
+      "representation": "transcribed displayed cell text; not raw model output"
+    },
+    {
+      "table": "Table S2",
+      "file": "data/published_tables/Table_S2.csv",
+      "rows_including_header": 10,
+      "columns": 4,
+      "source": "GBC_Supporting_Information.docx (attached manuscript package)",
+      "representation": "transcribed displayed cell text; not raw model output"
+    },
+    {
+      "table": "Table S3",
+      "file": "data/published_tables/Table_S3.csv",
+      "rows_including_header": 15,
+      "columns": 7,
+      "source": "GBC_Supporting_Information.docx (attached manuscript package)",
+      "representation": "transcribed displayed cell text; not raw model output"
+    },
+    {
+      "table": "Table S4",
+      "file": "data/published_tables/Table_S4.csv",
+      "rows_including_header": 9,
+      "columns": 7,
+      "source": "GBC_Supporting_Information.docx (attached manuscript package)",
+      "representation": "transcribed displayed cell text; not raw model output"
+    },
+    {
+      "table": "Table S5",
+      "file": "data/published_tables/Table_S5.csv",
+      "rows_including_header": 8,
+      "columns": 7,
+      "source": "GBC_Supporting_Information.docx (attached manuscript package)",
+      "representation": "transcribed displayed cell text; not raw model output"
+    },
+    {
+      "table": "Table S6",
+      "file": "data/published_tables/Table_S6.csv",
+      "rows_including_header": 3,
+      "columns": 5,
+      "source": "GBC_Supporting_Information.docx (attached manuscript package)",
+      "representation": "transcribed displayed cell text; not raw model output"
+    }
+  ],
+  "figure_files": [
+    {
+      "file": "figures/Fig1.png",
+      "sha256": "b5a595c43eb07d908a3870c91cc3e8ec9374e41627f31251e14537a54f73db9e"
+    },
+    {
+      "file": "figures/Fig2.png",
+      "sha256": "13c4ed1b7166c221cdf57d2ce5a9696993360751dc6b2f1f20481d5cb5005934"
+    },
+    {
+      "file": "figures/Fig3.png",
+      "sha256": "a80d6c04d4b0a1edee78d592fbe5530d0b7b38796065b886d232b306d610289e"
+    },
+    {
+      "file": "figures/Fig4.png",
+      "sha256": "ec592e34f9af3320abacd1cd8c13f7f8c73d0865ad6efffa7d4d92df0db0fa53"
+    }
+  ],
+  "known_limitations": [
+    "Pinned model source can be fetched via scripts/fetch_pinned_sources.py; offline archive contains manifest and scripts, not the remote source snapshots. The publishing script imports source before pushing.",
+    "The original science_figures member-level FaIR outputs and original rendering code have not been recovered. 44 scenario inputs have now been independently reconstructed from the documented formulas. They are not new verified model outputs.",
+    "Three fair-calibrate 1.4.1 non-canonical background trajectories have not been archived.",
+    "Manuscript results through end-2183 use FaIR bound 2184; the recovered V67 files use time bound 2183. These must not be equated."
+  ],
+  "doi": null,
+  "reconstructed_inputs": {
+    "script": "science_figures/generate_sensitivity_inputs.py",
+    "generated_csv_scenario_count": 44,
+    "size_rate_early_late_trajectories": 28,
+    "leakage_early_late_trajectories": 14,
+    "programmes_400_gt_2100": 2,
+    "analytical_linear_reference_rows": 14,
+    "linear_reference_max_abs_error_ppm": 0.00455338752876111,
+    "published_leakage_max_abs_error_gtco2": 0.45,
+    "status": "Analytical/mass-balance reconstruction only; not original FaIR model outputs",
+    "source_baseline": "data/v67/cases/fixed__early/trajectories/fixed__early.csv"
+  }
+}

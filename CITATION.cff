@@ -1,0 +1,16 @@
+"cff-version": "1.2.0"
+message: "Cite the archived release's Zenodo DOI, once issued, and the associated Global Biogeochemical Cycles article."
+title: "Climate Reversal: carbon-cycle compensation, removal timing, and reproducibility archive"
+authors:
+  - family-names: Bily
+    given-names: Jonathan Karl
+  - family-names: Pahl
+    given-names: Christoph
+repository-code: "https://github.com/bcjohnjr/Climate-Reversal"
+keywords:
+  - carbon dioxide removal
+  - carbon cycle
+  - FaIR
+  - Hector
+  - OSCAR
+  - reproducibility
