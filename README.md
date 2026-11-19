@@ -2,7 +2,7 @@
 
 **Study:** *Carbon-cycle compensation can reverse endpoint and cumulative rankings of equal CO₂ removals*
 
-This public research repository preserves the original carbon-cycle experiments and subsequent reproducibility work. It is **not associated with an active journal submission**. Authorship is retained in `CITATION.cff` and historical Git records. See `REPRODUCIBILITY_STATUS.md` for the precise distinction between recovered and newly generated outputs.
+This public research repository preserves the original carbon-cycle experiments and subsequent reproducibility work. It is the research archive for the study above. Authorship is retained in `CITATION.cff` and historical Git records. See `REPRODUCIBILITY_STATUS.md` for the precise distinction between recovered and newly generated outputs.
 
 ## Verified FaIR sensitivity matrix — bound 2184
 

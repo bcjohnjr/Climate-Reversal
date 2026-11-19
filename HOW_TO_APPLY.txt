@@ -1,0 +1,29 @@
+CLIMATE-REVERSAL: FINAL GITHUB HOUSEKEEPING
+
+Target: https://github.com/bcjohnjr/Climate-Reversal
+
+Changes are deliberately LIMITED to three root files:
+  REPLACE README.md (neutral research-archive description; all science unchanged)
+  DELETE OPEN_ISSUES_FOR_AGU.md (obsolete, says sensitivity outputs missing)
+  DELETE REPOSITORY_UPDATE_INSTRUCTIONS.md (internal administrative note)
+
+Nothing changes the numerical archives, datasets, scripts, citations or figures.
+
+OPTION A — GitHub website (no Git installation required)
+  1. Edit the root README.md and replace its complete contents with the README.md in this ZIP.
+  2. Open OPEN_ISSUES_FOR_AGU.md, click the edit/dropdown Delete file control and commit the deletion.
+  3. Open REPOSITORY_UPDATE_INSTRUCTIONS.md, delete it and commit.
+  4. Confirm both filenames no longer appear in the repository main branch.
+
+OPTION B — Windows scripted (requires Git installed and authorized)
+  1. Extract the four files into a temporary folder.
+  2. Double-click APPLY_REPOSITORY_CLEANUP_WINDOWS.bat.
+  3. Review staged changes and type YES only if you approve them being committed/pushed.
+  4. The script clones the current repo into a new temporary folder, edits exactly the three files,
+     refuses dirty trees, and does not push without the explicit typed YES.
+
+The connected GitHub integration refused direct edits with HTTP 403; these changes were NOT
+remotely committed by the assistant. Confirm in GitHub before declaring the repository clean.
+
+The archive identifies the authors via CITATION.cff. This remains an editorial double-blind
+matter disclosed in the journal's editor-only cover letter.
