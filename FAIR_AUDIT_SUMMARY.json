@@ -1,0 +1,30 @@
+{
+  "source_repository": "https://github.com/bcjohnjr/Climate-Reversal",
+  "package": "FLAT_ROOT_UPLOAD_V6",
+  "original_windows_run": "2026-11-19",
+  "model": "FaIR",
+  "model_version": "2.2.4",
+  "calibration": "fair-calibrate 1.4.1",
+  "members_per_case": 841,
+  "cases": 56,
+  "case_outputs_per_case": 11,
+  "quantitative_comparisons": 152,
+  "comparisons_passed": 152,
+  "max_reported_nonco2_forcing_residual_wm2": 2.4295623888836992e-05,
+  "tolerance_wm2": 0.0001,
+  "end_of_emissions_year": 2183,
+  "evaluation_timebound": 2184,
+  "S4_off_CO2_year": "FaIR timebound 2100",
+  "recorded_input_hashes_matching_archived_staged_bytes": 0,
+  "max_recomputed_input_numeric_difference_gtco2yr": 1.2434497875801753e-14,
+  "source_commit_fair": "ec46fefc8f8c6b560a8b78ab1f4a9a5e04537f79",
+  "source_commit_v62": "89a0f4ab18df25db3a05d4e39c6db06405456505",
+  "status": "FULL_56_NUMERICALLY_REPRODUCED_WITH_PROVENANCE_LIMITATIONS",
+  "limitations": [
+    "FaIR results alone do not independently validate climate-model assumptions or paper interpretation",
+    "Original manuscript plotting scripts not recovered",
+    "Hector/OSCAR independent re-runs not included",
+    "Input CSVs were reserialized; original case hashes differ from staged output copies",
+    "No permanent Zenodo DOI issued by this packaging operation"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "status": "FULL_56_NUMERICALLY_REPRODUCED",
+  "scope": "full",
+  "expected_cases": 56,
+  "valid_cases": 56,
+  "missing_cases": [],
+  "invalid_cases": {},
+  "published_comparisons": 152,
+  "comparisons_passed": 152,
+  "comparisons_failed": 0,
+  "scientific_warning": "Source-target agreement is not proof of the independence or correctness of the published model assumptions; paper and exact figure scripts still require review."
+}

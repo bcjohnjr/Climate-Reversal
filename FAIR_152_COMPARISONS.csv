@@ -1,0 +1,153 @@
+group,case,metric,actual,published,abs_error,tolerance,pass
+Table S3,size_100.00_rate_2_,early integrated forcing advantage Wm-2yr,7.158745343067953,7.16,0.0012546569320468492,0.02,True
+Table S3,size_100.00_rate_2_,late terminal atmospheric advantage ppm,1.893189467531954,1.89,0.0031894675319541488,0.02,True
+Table S3,size_100.00_rate_2_,early integrated warming advantage C yr,4.1794086666231856,4.18,0.0005913333768141626,0.02,True
+Table S3,size_100.00_rate_2_,minimum member late terminal advantage ppm,1.7424404859425535,1.74,0.0024404859425535275,0.02,True
+Table S3,size_100.00_rate_2_,members satisfying both rankings,841.0,841.0,0.0,0.0,True
+Table S3,size_250.00_rate_2_,early integrated forcing advantage Wm-2yr,5.42646390248599,5.43,0.0035360975140097395,0.02,True
+Table S3,size_250.00_rate_2_,late terminal atmospheric advantage ppm,1.6641673258333203,1.66,0.004167325833320357,0.02,True
+Table S3,size_250.00_rate_2_,early integrated warming advantage C yr,3.1322920195404302,3.13,0.0022920195404303456,0.02,True
+Table S3,size_250.00_rate_2_,minimum member late terminal advantage ppm,1.4726814024814416,1.47,0.0026814024814416637,0.02,True
+Table S3,size_250.00_rate_2_,members satisfying both rankings,841.0,841.0,0.0,0.0,True
+Table S3,size_100.00_rate_5_,early integrated forcing advantage Wm-2yr,9.35172311179172,9.35,0.0017231117917209104,0.02,True
+Table S3,size_100.00_rate_5_,late terminal atmospheric advantage ppm,3.2325400146366405,3.23,0.002540014636640553,0.02,True
+Table S3,size_100.00_rate_5_,early integrated warming advantage C yr,5.388504622112806,5.39,0.0014953778871937828,0.02,True
+Table S3,size_100.00_rate_5_,minimum member late terminal advantage ppm,2.8375305112086275,2.84,0.0024694887913723207,0.02,True
+Table S3,size_100.00_rate_5_,members satisfying both rankings,841.0,841.0,0.0,0.0,True
+Table S3,size_250.00_rate_5_,early integrated forcing advantage Wm-2yr,17.9930266130075,17.99,0.003026613007502732,0.02,True
+Table S3,size_250.00_rate_5_,late terminal atmospheric advantage ppm,4.867915552236589,4.87,0.0020844477634112124,0.02,True
+Table S3,size_250.00_rate_5_,early integrated warming advantage C yr,10.412446110295724,10.41,0.0024461102957236136,0.02,True
+Table S3,size_250.00_rate_5_,minimum member late terminal advantage ppm,4.399886440800399,4.4,0.00011355919960109873,0.02,True
+Table S3,size_250.00_rate_5_,members satisfying both rankings,841.0,841.0,0.0,0.0,True
+Table S3,size_500.00_rate_5_,early integrated forcing advantage Wm-2yr,19.218776999858612,19.22,0.0012230001413868763,0.02,True
+Table S3,size_500.00_rate_5_,late terminal atmospheric advantage ppm,4.996368022774622,5.0,0.0036319772253783356,0.02,True
+Table S3,size_500.00_rate_5_,early integrated warming advantage C yr,11.12296881771926,11.12,0.002968817719260386,0.02,True
+Table S3,size_500.00_rate_5_,minimum member late terminal advantage ppm,4.525743568720539,4.53,0.004256431279460848,0.02,True
+Table S3,size_500.00_rate_5_,members satisfying both rankings,841.0,841.0,0.0,0.0,True
+Table S3,size_100.00_rate_10_,early integrated forcing advantage Wm-2yr,10.169659163876124,10.17,0.00034083612387547646,0.02,True
+Table S3,size_100.00_rate_10_,late terminal atmospheric advantage ppm,4.253162872254734,4.25,0.003162872254733884,0.02,True
+Table S3,size_100.00_rate_10_,early integrated warming advantage C yr,5.787062400093614,5.79,0.0029375999063860903,0.02,True
+Table S3,size_100.00_rate_10_,minimum member late terminal advantage ppm,3.732464859901256,3.73,0.0024648599012562222,0.02,True
+Table S3,size_100.00_rate_10_,members satisfying both rankings,841.0,841.0,0.0,0.0,True
+Table S3,size_250.00_rate_10_,early integrated forcing advantage Wm-2yr,22.472642644226738,22.47,0.0026426442267393213,0.02,True
+Table S3,size_250.00_rate_10_,late terminal atmospheric advantage ppm,7.365380250781019,7.37,0.004619749218981006,0.02,True
+Table S3,size_250.00_rate_10_,early integrated warming advantage C yr,12.915085825347528,12.91,0.005085825347528328,0.02,True
+Table S3,size_250.00_rate_10_,minimum member late terminal advantage ppm,6.454577028335452,6.45,0.004577028335451594,0.02,True
+Table S3,size_250.00_rate_10_,members satisfying both rankings,841.0,841.0,0.0,0.0,True
+Table S3,size_500.00_rate_10_,early integrated forcing advantage Wm-2yr,36.16058952071584,36.16,0.0005895207158417293,0.02,True
+Table S3,size_500.00_rate_10_,late terminal atmospheric advantage ppm,9.574971328882839,9.57,0.004971328882838577,0.02,True
+Table S3,size_500.00_rate_10_,early integrated warming advantage C yr,20.892371676880416,20.89,0.0023716768804149524,0.02,True
+Table S3,size_500.00_rate_10_,minimum member late terminal advantage ppm,8.800455239366162,8.8,0.00045523936616120864,0.02,True
+Table S3,size_500.00_rate_10_,members satisfying both rankings,841.0,841.0,0.0,0.0,True
+Table S3,size_1000.00_rate_10_,early integrated forcing advantage Wm-2yr,38.900395288984186,38.9,0.0003952889841869478,0.02,True
+Table S3,size_1000.00_rate_10_,late terminal atmospheric advantage ppm,10.099628158670605,10.1,0.00037184132939493963,0.02,True
+Table S3,size_1000.00_rate_10_,early integrated warming advantage C yr,22.404539486271933,22.4,0.004539486271934123,0.02,True
+Table S3,size_1000.00_rate_10_,minimum member late terminal advantage ppm,9.024366460865622,9.02,0.0043664608656222015,0.02,True
+Table S3,size_1000.00_rate_10_,members satisfying both rankings,841.0,841.0,0.0,0.0,True
+Table S3,size_100.00_rate_20_,early integrated forcing advantage Wm-2yr,10.610942137028008,10.61,0.000942137028008716,0.02,True
+Table S3,size_100.00_rate_20_,late terminal atmospheric advantage ppm,5.27435192557823,5.27,0.00435192557823072,0.02,True
+Table S3,size_100.00_rate_20_,early integrated warming advantage C yr,5.982608438964984,5.98,0.0026084389649838613,0.02,True
+Table S3,size_100.00_rate_20_,minimum member late terminal advantage ppm,4.755198703025258,4.76,0.004801296974742186,0.02,True
+Table S3,size_100.00_rate_20_,members satisfying both rankings,841.0,841.0,0.0,0.0,True
+Table S3,size_250.00_rate_20_,early integrated forcing advantage Wm-2yr,24.926011848919817,24.93,0.003988151080182689,0.02,True
+Table S3,size_250.00_rate_20_,late terminal atmospheric advantage ppm,9.923988468465778,9.92,0.003988468465777828,0.02,True
+Table S3,size_250.00_rate_20_,early integrated warming advantage C yr,14.177499053694786,14.18,0.0025009463052132475,0.02,True
+Table S3,size_250.00_rate_20_,minimum member late terminal advantage ppm,8.585221765021286,8.59,0.004778234978713769,0.02,True
+Table S3,size_250.00_rate_20_,members satisfying both rankings,841.0,841.0,0.0,0.0,True
+Table S3,size_500.00_rate_20_,early integrated forcing advantage Wm-2yr,45.15668988930155,45.16,0.003310110698443225,0.02,True
+Table S3,size_500.00_rate_20_,late terminal atmospheric advantage ppm,14.697025855715527,14.7,0.002974144284472402,0.02,True
+Table S3,size_500.00_rate_20_,early integrated warming advantage C yr,25.888499579340447,25.89,0.0015004206595534697,0.02,True
+Table S3,size_500.00_rate_20_,minimum member late terminal advantage ppm,13.001849453461091,13.0,0.0018494534610908886,0.02,True
+Table S3,size_500.00_rate_20_,members satisfying both rankings,841.0,841.0,0.0,0.0,True
+Table S3,size_1000.00_rate_20_,early integrated forcing advantage Wm-2yr,72.89587309004858,72.9,0.0041269099514238405,0.02,True
+Table S3,size_1000.00_rate_20_,late terminal atmospheric advantage ppm,19.39552043471894,19.4,0.004479565281059195,0.02,True
+Table S3,size_1000.00_rate_20_,early integrated warming advantage C yr,42.07751882786693,42.08,0.0024811721330664227,0.02,True
+Table S3,size_1000.00_rate_20_,minimum member late terminal advantage ppm,17.51468575516003,17.51,0.004685755160029004,0.02,True
+Table S3,size_1000.00_rate_20_,members satisfying both rankings,841.0,841.0,0.0,0.0,True
+Table S3,size_2013.88_rate_20_,early integrated forcing advantage Wm-2yr,78.70415903109628,78.7,0.004159031096278909,0.02,True
+Table S3,size_2013.88_rate_20_,late terminal atmospheric advantage ppm,20.39894485500328,20.4,0.001055144996719548,0.02,True
+Table S3,size_2013.88_rate_20_,early integrated warming advantage C yr,45.52187784343967,45.52,0.0018778434396651278,0.02,True
+Table S3,size_2013.88_rate_20_,minimum member late terminal advantage ppm,17.629398773700686,17.63,0.0006012262993131401,0.02,True
+Table S3,size_2013.88_rate_20_,members satisfying both rankings,841.0,841.0,0.0,0.0,True
+Table S5,leak_0.00_tau_0_,early integrated forcing advantage Wm-2yr,78.75036587503801,78.75,0.00036587503801399635,0.02,True
+Table S5,leak_0.00_tau_0_,late terminal atmospheric advantage ppm,20.399234761816018,20.4,0.0007652381839804434,0.02,True
+Table S5,leak_0.00_tau_0_,early integrated warming advantage C yr,45.55696207210615,45.56,0.0030379278938497123,0.02,True
+Table S5,leak_0.00_tau_0_,members satisfying both rankings,841.0,841.0,0.0,0.0,True
+Table S5,leak_0.10_tau_20_,early integrated forcing advantage Wm-2yr,70.63134609290714,70.63,0.001346092907141383,0.02,True
+Table S5,leak_0.10_tau_20_,late terminal atmospheric advantage ppm,20.446174910170825,20.45,0.0038250898291742885,0.02,True
+Table S5,leak_0.10_tau_20_,early integrated warming advantage C yr,41.11707345058839,41.12,0.0029265494116046398,0.02,True
+Table S5,leak_0.10_tau_20_,members satisfying both rankings,841.0,841.0,0.0,0.0,True
+Table S5,leak_0.10_tau_100_,early integrated forcing advantage Wm-2yr,73.87003652237402,73.87,3.652237401752245e-05,0.02,True
+Table S5,leak_0.10_tau_100_,late terminal atmospheric advantage ppm,22.360295149515565,22.36,0.0002951495155656403,0.02,True
+Table S5,leak_0.10_tau_100_,early integrated warming advantage C yr,43.05581009858757,43.06,0.004189901412431141,0.02,True
+Table S5,leak_0.10_tau_100_,members satisfying both rankings,841.0,841.0,0.0,0.0,True
+Table S5,leak_0.25_tau_20_,early integrated forcing advantage Wm-2yr,58.56933127243046,58.57,0.0006687275695398398,0.02,True
+Table S5,leak_0.25_tau_20_,late terminal atmospheric advantage ppm,20.501715076479115,20.5,0.001715076479115396,0.02,True
+Table S5,leak_0.25_tau_20_,early integrated warming advantage C yr,34.46400063776579,34.46,0.004000637765791737,0.02,True
+Table S5,leak_0.25_tau_20_,members satisfying both rankings,841.0,841.0,0.0,0.0,True
+Table S5,leak_0.25_tau_100_,early integrated forcing advantage Wm-2yr,66.62639950868338,66.63,0.003600491316618104,0.02,True
+Table S5,leak_0.25_tau_100_,late terminal atmospheric advantage ppm,25.49864516058807,25.5,0.0013548394119311524,0.02,True
+Table S5,leak_0.25_tau_100_,early integrated warming advantage C yr,39.32341654004564,39.32,0.003416540045641625,0.02,True
+Table S5,leak_0.25_tau_100_,members satisfying both rankings,841.0,841.0,0.0,0.0,True
+Table S5,leak_0.50_tau_20_,early integrated forcing advantage Wm-2yr,38.802540322110964,38.8,0.002540322110966997,0.02,True
+Table S5,leak_0.50_tau_20_,late terminal atmospheric advantage ppm,20.831877568613834,20.83,0.0018775686138354786,0.02,True
+Table S5,leak_0.50_tau_20_,early integrated warming advantage C yr,23.580286533460878,23.58,0.00028653346087992304,0.02,True
+Table S5,leak_0.50_tau_20_,members satisfying both rankings,841.0,841.0,0.0,0.0,True
+Table S5,leak_0.50_tau_100_,early integrated forcing advantage Wm-2yr,54.70498056591897,54.7,0.004980565918970115,0.02,True
+Table S5,leak_0.50_tau_100_,late terminal atmospheric advantage ppm,30.668676824680574,30.67,0.0013231753194276052,0.02,True
+Table S5,leak_0.50_tau_100_,early integrated warming advantage C yr,33.13302137146036,33.13,0.0030213714603561925,0.02,True
+Table S5,leak_0.50_tau_100_,members satisfying both rankings,841.0,841.0,0.0,0.0,True
+Table S6,400GtCO2,2100 back minus front terminal CO2 ppm,5.233843782994931,5.24,0.006156217005068854,0.02,True
+Table S6,400GtCO2,2100 front minus back forcing Wm-2yr,6.994999879635529,7.0,0.005000120364471172,0.02,True
+Table S6,400GtCO2,2100 front minus back warming Cyr,3.5836380564540207,3.58,0.0036380564540205995,0.02,True
+Table S6,400GtCO2,2150 back minus front terminal CO2 ppm,0.682933267936793,0.68,0.002933267936792938,0.02,True
+Table S6,400GtCO2,2150 front minus back forcing Wm-2yr,5.806070612584609,5.81,0.003929387415390728,0.02,True
+Table S6,400GtCO2,2150 front minus back warming Cyr,3.425156876287069,3.43,0.004843123712931163,0.02,True
+Table S4,canonical-2013.88-r20,OFF CO2 at timebound 2100 ppm,413.9327701863164,414.0,0.06722981368358205,0.51,True
+Table S4,canonical-2013.88-r20,early integrated forcing advantage Wm-2yr,78.70415903109628,78.7,0.004159031096278909,0.02,True
+Table S4,canonical-2013.88-r20,late terminal atmospheric advantage ppm,20.39894485500328,20.4,0.001055144996719548,0.02,True
+Table S4,canonical-2013.88-r20,late terminal warming advantage C,0.03332428039672308,0.033,0.0003242803967230812,0.002,True
+Table S4,canonical-2013.88-r20,minimum member late terminal advantage ppm,17.629398773700686,17.63,0.0006012262993131401,0.02,True
+Table S4,canonical-2013.88-r20,members satisfying both rankings,841.0,841.0,0.0,0.0,True
+Table S4,canonical-500.00-r10,OFF CO2 at timebound 2100 ppm,413.9327701863164,414.0,0.06722981368358205,0.51,True
+Table S4,canonical-500.00-r10,early integrated forcing advantage Wm-2yr,36.16058952071584,36.16,0.0005895207158417293,0.02,True
+Table S4,canonical-500.00-r10,late terminal atmospheric advantage ppm,9.574971328882839,9.57,0.004971328882838577,0.02,True
+Table S4,canonical-500.00-r10,late terminal warming advantage C,0.013167624640666703,0.013,0.00016762464066670361,0.002,True
+Table S4,canonical-500.00-r10,minimum member late terminal advantage ppm,8.800455239366162,8.8,0.00045523936616120864,0.02,True
+Table S4,canonical-500.00-r10,members satisfying both rankings,841.0,841.0,0.0,0.0,True
+Table S4,low-2013.88-r20,OFF CO2 at timebound 2100 ppm,442.7692254137538,443.0,0.2307745862461843,0.51,True
+Table S4,low-2013.88-r20,early integrated forcing advantage Wm-2yr,77.4067357204788,77.41,0.0032642795211899056,0.02,True
+Table S4,low-2013.88-r20,late terminal atmospheric advantage ppm,19.180407966608158,19.18,0.0004079666081580058,0.02,True
+Table S4,low-2013.88-r20,late terminal warming advantage C,0.030720624952002895,0.031,0.00027937504799710466,0.002,True
+Table S4,low-2013.88-r20,minimum member late terminal advantage ppm,15.781659680502258,15.78,0.0016596805022590644,0.02,True
+Table S4,low-2013.88-r20,members satisfying both rankings,841.0,841.0,0.0,0.0,True
+Table S4,low-500.00-r10,OFF CO2 at timebound 2100 ppm,442.7692254137538,443.0,0.2307745862461843,0.51,True
+Table S4,low-500.00-r10,early integrated forcing advantage Wm-2yr,35.292122075065286,35.29,0.0021220750652872766,0.02,True
+Table S4,low-500.00-r10,late terminal atmospheric advantage ppm,9.288915646659348,9.29,0.0010843533406514894,0.02,True
+Table S4,low-500.00-r10,late terminal warming advantage C,-0.0005617099246681967,-0.001,0.00043829007533180333,0.002,True
+Table S4,low-500.00-r10,minimum member late terminal advantage ppm,7.864655908268112,7.86,0.004655908268111908,0.02,True
+Table S4,low-500.00-r10,members satisfying both rankings,841.0,841.0,0.0,0.0,True
+Table S4,medium-2013.88-r20,OFF CO2 at timebound 2100 ppm,594.9588481302792,595.0,0.041151869720806644,0.51,True
+Table S4,medium-2013.88-r20,early integrated forcing advantage Wm-2yr,70.83060909242683,70.83,0.0006090924268278286,0.02,True
+Table S4,medium-2013.88-r20,late terminal atmospheric advantage ppm,21.51760786923029,21.52,0.0023921307697101213,0.02,True
+Table S4,medium-2013.88-r20,late terminal warming advantage C,-0.01697043281135846,-0.017,2.9567188641541065e-05,0.002,True
+Table S4,medium-2013.88-r20,minimum member late terminal advantage ppm,7.812263753288896,7.81,0.0022637532888962753,0.02,True
+Table S4,medium-2013.88-r20,members satisfying both rankings,841.0,841.0,0.0,0.0,True
+Table S4,medium-500.00-r10,OFF CO2 at timebound 2100 ppm,594.9588481302792,595.0,0.041151869720806644,0.51,True
+Table S4,medium-500.00-r10,early integrated forcing advantage Wm-2yr,32.47968092727295,32.48,0.0003190727270450111,0.02,True
+Table S4,medium-500.00-r10,late terminal atmospheric advantage ppm,10.347740071232344,10.35,0.0022599287676552393,0.02,True
+Table S4,medium-500.00-r10,late terminal warming advantage C,-0.012183622685121992,-0.012,0.00018362268512199173,0.002,True
+Table S4,medium-500.00-r10,minimum member late terminal advantage ppm,2.1161866984731397,2.12,0.0038133015268604353,0.02,True
+Table S4,medium-500.00-r10,members satisfying both rankings,841.0,841.0,0.0,0.0,True
+Table S4,high-2013.88-r20,OFF CO2 at timebound 2100 ppm,722.2305981289629,722.0,0.23059812896292442,0.51,True
+Table S4,high-2013.88-r20,early integrated forcing advantage Wm-2yr,66.76722220157781,66.77,0.002777798422187061,0.02,True
+Table S4,high-2013.88-r20,late terminal atmospheric advantage ppm,22.837357866263204,22.84,0.002642133736795671,0.02,True
+Table S4,high-2013.88-r20,late terminal warming advantage C,-0.044836639147233015,-0.045,0.0001633608527669833,0.002,True
+Table S4,high-2013.88-r20,minimum member late terminal advantage ppm,1.3043011798683892,1.3,0.004301179868389182,0.02,True
+Table S4,high-2013.88-r20,members satisfying both rankings,841.0,841.0,0.0,0.0,True
+Table S4,high-500.00-r10,OFF CO2 at timebound 2100 ppm,722.2305981289629,722.0,0.23059812896292442,0.51,True
+Table S4,high-500.00-r10,early integrated forcing advantage Wm-2yr,30.781321586698578,30.78,0.0013215866985767377,0.02,True
+Table S4,high-500.00-r10,late terminal atmospheric advantage ppm,10.604215594134978,10.6,0.004215594134977962,0.02,True
+Table S4,high-500.00-r10,late terminal warming advantage C,-0.022738228112657993,-0.023,0.00026177188734200635,0.002,True
+Table S4,high-500.00-r10,minimum member late terminal advantage ppm,0.3396316849234591,0.34,0.0003683150765409482,0.02,True
+Table S4,high-500.00-r10,members satisfying both rankings,841.0,841.0,0.0,0.0,True
