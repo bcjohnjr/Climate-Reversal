@@ -1,5 +1,5 @@
-"cff-version": "1.2.0"
-message: "Cite the archived release's Zenodo DOI, once issued, and the associated Global Biogeochemical Cycles article."
+cff-version: 1.2.0
+message: "Please cite this research-code and data archive with its exact Git commit or a genuine published archival DOI if one becomes available."
 title: "Climate Reversal: carbon-cycle compensation, removal timing, and reproducibility archive"
 authors:
   - family-names: Bily
