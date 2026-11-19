@@ -1,0 +1,149 @@
+# Place this flat upload file into .github/workflows/fair-sensitivity-reproduction.yml to enable GitHub Actions.
+name: Reproduce FaIR 2184 sensitivity matrix
+on:
+  workflow_dispatch:
+    inputs:
+      scope:
+        description: 'smoke (2), core (44), background (12), full (56)'
+        type: choice
+        required: true
+        default: smoke
+        options: [smoke, core, background, full]
+permissions:
+  contents: read
+jobs:
+  prepare:
+    runs-on: ubuntu-24.04
+    outputs:
+      cases: ${{ steps.list.outputs.cases }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Unpack independently verified flat source bundle
+        run: python FAIR_VERIFY.py --extract-code --workspace .
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install 'numpy==1.26.4' 'pandas==2.2.3'
+      - name: Checkout pinned official FaIR emissions (not model execution)
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p pinned_source
+          git clone https://github.com/OMS-NetZero/FAIR.git pinned_source/fair
+          git -C pinned_source/fair checkout --detach ec46fefc8f8c6b560a8b78ab1f4a9a5e04537f79
+          test "$(git -C pinned_source/fair rev-parse HEAD)" = ec46fefc8f8c6b560a8b78ab1f4a9a5e04537f79
+      - name: Generate and verify scenario inputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          python src/build_inputs.py
+          python src/test_preflight.py
+          python src/audit_archived_v67.py
+          python src/build_background.py --emissions pinned_source/fair/examples/data/calibrated_constrained_ensemble/extensions_1750-2500.csv
+      - id: list
+        shell: bash
+        env:
+          REQUESTED_SCOPE: ${{ inputs.scope }}
+        run: |
+          python - <<'PY'
+          import json,os,pandas as pd
+          from pathlib import Path
+          m=pd.read_csv('inputs/manifest.csv').fillna('')
+          s=os.environ['REQUESTED_SCOPE']
+          if s=='smoke':cases=['size_100.00_rate_2_early','size_100.00_rate_2_late']
+          elif s=='core':cases=list(m.loc[m.group!='background','case_id'])
+          elif s=='background':cases=list(m.loc[m.group=='background','case_id'])
+          elif s=='full':cases=list(m.case_id)
+          else:raise ValueError(s)
+          Path('expected_cases.json').write_text(json.dumps({'scope':s,'case_ids':cases},indent=2))
+          with open(os.environ['GITHUB_OUTPUT'],'a') as f:
+              f.write('cases='+json.dumps(cases,separators=(',',':'))+'\n')
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: selected-case-manifest
+          path: expected_cases.json
+          retention-days: 90
+  faIR-matrix:
+    needs: prepare
+    runs-on: ubuntu-24.04
+    timeout-minutes: 330
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        case_id: ${{ fromJSON(needs.prepare.outputs.cases) }}
+    env:
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - name: Unpack independently verified flat source bundle
+        run: python FAIR_VERIFY.py --extract-code --workspace .
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - name: Execute one real pinned FaIR ensemble case
+        shell: bash
+        env:
+          CASE_ID: ${{ matrix.case_id }}
+        run: |
+          set -euo pipefail
+          python src/execute.py --scope full --case-id "$CASE_ID" 2>&1 | tee "fair_${CASE_ID}.log"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: fair-2184-${{ matrix.case_id }}
+          if-no-files-found: warn
+          retention-days: 90
+          path: |
+            results/${{ matrix.case_id }}/
+            fair_${{ matrix.case_id }}.log
+  audit:
+    needs: [prepare, faIR-matrix]
+    if: always() && needs.prepare.result == 'success'
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Unpack independently verified flat source bundle
+        run: python FAIR_VERIFY.py --extract-code --workspace .
+      - uses: actions/download-artifact@v4
+        with:
+          name: selected-case-manifest
+          path: selected
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: fair-2184-*
+          path: collected
+          merge-multiple: false
+        continue-on-error: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install 'numpy==1.26.4' 'pandas==2.2.3'
+      - name: Restore results with case identities
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import shutil
+          dst=Path('results');dst.mkdir(exist_ok=True)
+          for artifact in Path('collected').glob('fair-2184-*'):
+              name=artifact.name.removeprefix('fair-2184-')
+              candidate=artifact/'results'/name
+              if not candidate.is_dir():candidate=artifact/name
+              if not candidate.is_dir():candidate=artifact
+              if (candidate/'validation.json').is_file():
+                  shutil.copytree(candidate,dst/name,dirs_exist_ok=True)
+          print('Restored case directories:',len(list(dst.iterdir())))
+          PY
+      - name: Require complete results AND published numerical agreement
+        shell: bash
+        run: |
+          python src/compare_results.py --expected-cases selected/expected_cases.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: fair-2184-final-audit
+          path: reports/
+          retention-days: 90
